@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title MyBlog
+    link(rel='stylesheet', type='text/css', href='/style.css')
+    script(type='text/javascript', src='/index.js')
+          //- script(type='text/javascript', src='/main.js')
+
+    
+    
+  body
+    h1.homepage  MLP
+    button#hellobtn Hello
+    .dropdown
+      button.dropbtn(onclick='myDropDownFunction()') Dropdown
+      #myDropdown.dropdown-content
+        a(href='projects.pug') Projects
+        a(href='about.pug') About
+        a(href='contact.pug') Contact
+        a(href='/') Home

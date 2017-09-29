@@ -1,0 +1,19 @@
+app.use(express.static('public'))
+
+
+/*projects page logo*/
+.projects-page {
+    font-size: 100px;
+    color: #74767a;
+    font-family: "serif", times;
+    text-align: center;
+    line-height: 400px;
+    border: 5px solid #5775b2;
+    border-color: #314360;
+}
+
+/*home page logo hover effect*/
+
+.projectsPage:hover {
+    background-color: #93a9d6;
+}

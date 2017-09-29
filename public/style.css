@@ -1,0 +1,104 @@
+app.use(express.static('public'))
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #314360;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #74767a;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+/*social media contact buttons*/
+/*.socialMediaIcon {*/
+
+    /*no*/
+/*    clear: right;
+    overflow: auto;*/
+    /*no*/
+
+/*    width: 100%;
+    height: 100px;
+    float: left;
+    font-family: courier;
+    background-repeat: no-repeat;
+    background-size: 40px 40px
+}
+
+#facebook {
+    background-image: url("SocialMediaIcon/FBlogo.png");
+}
+
+#instagram {
+    background-image: url("SocialMediaIcon/instalogo.png");
+}
+
+#linkedin {
+    background-image: url("SocialMediaIcon/linklogo.png");
+}
+
+#twitter {
+    background-image: url("SocialMediaIcon/twitterlogo.png");
+}
+
+*/
+
+/*home page logo*/
+.homepage {
+    font-size: 200px;
+    color: #74767a;
+    font-family: "serif", times;
+    text-align: center;
+    line-height: 400px;
+    border: 5px solid #5775b2;
+    border-color: #314360;
+}
+
+/*home page logo hover effect*/
+
+.homepage:hover {
+    background-color: #93a9d6;
+}
+
