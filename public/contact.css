@@ -1,5 +1,5 @@
-app.use(express.static('public'))
-
+/*app.use(express.static('public'))
+*/
 
 /*contact page logo*/
 .contact-page {
@@ -32,20 +32,21 @@ app.use(express.static('public'))
 }
 
 #facebook {
-    background-image: url("SocialMediaIcon/FBlogo.png");
+    background-image: url("/socialMediaIcon/fblogo.png");
 }
 
 #instagram {
-    background-image: url("SocialMediaIcon/instalogo.png");
+    background-image: url("/socialMediaIcon/instalogo.png");
 }
 
 #linkedin {
-    background-image: url("SocialMediaIcon/linklogo.png");
+    background-image: url("/socialMediaIcon/linklogo.png");
 }
 
 #twitter {
-    background-image: url("SocialMediaIcon/twitterlogo.png");
+    background-image: url("/socialMediaIcon/twitterlogo.png");
 }
+
 
 
 

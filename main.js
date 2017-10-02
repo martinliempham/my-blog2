@@ -1,8 +1,9 @@
 'use strict'
 var express = require('express');
 var app = express();
-
-app.use(express.static('public'));
+var path = require('path');
+// app.use('/', express.static(path.join(__dirname, 'public')));
+app.use(express.static('./public'))
 
 // look for templates in my views folder otherwise look for templates in views folder
 app.set('view engine','pug');
@@ -17,21 +18,21 @@ app.get('/', function(request, response) {
 });
 
 
-app.get('/contact.pug', function(request, response) {
+app.get('/contact', function(request, response) {
   console.log('got request for "/hello/world"');    
   // response.send('hello there!');
   response.render('contact')
 });
 
 
-app.get('/about.pug', function(request, response) {
+app.get('/about', function(request, response) {
   console.log('got request for "/hello/world"');    
   // response.send('hello there!');
   response.render('about')
 });
 
 
-app.get('/projects.pug', function(request, response) {
+app.get('/projects', function(request, response) {
   console.log('got request for "/hello/world"');    
   // response.send('hello there!');
   response.render('projects')
@@ -42,8 +43,8 @@ app.listen(3000, function(){
   console.log('App is listening on port 3000');
 })
 
-app.get('*', function(request, response){
-  response.status(404).send('page not found')
-})
+// app.get('*', function(request, response){
+//   response.status(404).send('page not found')
+// })
 
 // app.use(express.static(path.join(__dirname, 'public')));

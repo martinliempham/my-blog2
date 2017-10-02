@@ -13,20 +13,21 @@ html
     .dropdown
       button.dropbtn(onclick='myDropDownFunction()') Dropdown
       #myDropdown.dropdown-content
-        a(href='projects.pug') Projects
-        a(href='about.pug') About
-        a(href='contact.pug') Contact
+        a(href='projects') Projects
+        a(href='about') About
+        a(href='contact') Contact
         a(href='/') Home
       //- br
       //- a(href='/') Home
       //- br
       //- social media contact buttons
-    .socialMediaIcon
-      a(href='https://www.facebook.com/martin.pham.9028') #[img(src='/SocialMediaIcon/FBlogo.png')]
-        //- #facebook.socialMediaIcon
-      a(href='https://www.instagram.com/martinliempham/?hl=en') #[img(src='/SocialMediaIcon/instalogo.png')]
-        //- #instagram.socialMediaIcon
-      a(href='https://twitter.com/MartinPham03') #[img(src='/SocialMediaIcon/twitterlogo.png')]
-        //- #twitter.socialMediaIcon
-      a(href='https://www.linkedin.com/in/martin-pham-67b9a9b4/') #[img(src='/SocialMediaIcon/linklogo.png')]
-        //- #linkedin.socialMediaIcon
+    div#facebook.socialMediaIcon(href='https://www.facebook.com/martin.pham.9028')
+    div#instagram.socialMediaIcon(href='https://www.instagram.com/martinliempham/?hl=en')
+    div#twitter.socialMediaIcon(href='https://twitter.com/MartinPham03')
+    div#linkedin.socialMediaIcon(href='https://www.linkedin.com/in/martin-pham-67b9a9b4/')
+
+
+      //- a(href='https://www.facebook.com/martin.pham.9028')
+      //-     img(src="/SocialMediaIcon/FBlogo.png")
+//- a(href='https://github.com/LouieAdamian')
+//-   img(src="/img/GitHub.png")
