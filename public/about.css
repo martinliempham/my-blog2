@@ -1,19 +1,20 @@
-app.use(express.static('public'))
+
 
 
 /*about page logo*/
 .about-page {
-    font-size: 100px;
+	font-size: 80px;
     color: #74767a;
     font-family: "serif", times;
     text-align: center;
-    line-height: 400px;
+    vertical-align: text-top;
+    line-height: 100px;
     border: 5px solid #5775b2;
     border-color: #314360;
 }
 
 /*home page logo hover effect*/
 
-.aboutPage:hover {
+.about-page:hover {
     background-color: #93a9d6;
 }

@@ -43,8 +43,8 @@ app.listen(3000, function(){
   console.log('App is listening on port 3000');
 })
 
-// app.get('*', function(request, response){
-//   response.status(404).send('page not found')
-// })
+app.get('*', function(request, response){
+  response.status(404).send('page not found')
+})
 
 // app.use(express.static(path.join(__dirname, 'public')));
