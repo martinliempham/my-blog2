@@ -2,6 +2,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var PORT = process.env.PORT || 3000;
 // app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(express.static('./public'))
 
@@ -39,9 +40,9 @@ app.get('/projects', function(request, response) {
 });
 
 
-app.listen(3000, function(){
-  console.log('App is listening on port 3000');
-})
+// app.listen(3000, function(){
+//   console.log('App is listening on port 3000');
+// })
 
 app.get('*', function(request, response){
   response.status(404).send('page not found')
