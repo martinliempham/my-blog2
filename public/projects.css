@@ -17,3 +17,11 @@
 .projects-page:hover {
     background-color: #93a9d6;
 }
+
+.myprojects {
+	font-size: 30px;
+	font-color: #74767a;
+	font-family: "serif";
+	border: 5px solid black;
+	border-color: #314360;
+}
